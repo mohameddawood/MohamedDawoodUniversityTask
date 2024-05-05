@@ -1,0 +1,67 @@
+plugins {
+    id "com.android.library"
+    alias(libs.plugins.jetbrains.kotlin.android)
+    id 'kotlin-android'
+    alias(libs.plugins.hilt.lib)
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.example.list'
+    compileSdk 34
+
+    buildFeatures {
+        compose true
+        buildConfig = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.5.0'
+    }
+}
+
+dependencies {
+    api libs.ktxCore
+    api libs.androidLifecycle
+    api libs.androidActivityCompose
+    api platform(libs.composeBom)
+    api libs.composeUi
+    api libs.composeGraphic
+    api libs.composeUiToolingPreview
+    api libs.composeMaterial3
+    api libs.viewmodelKtx
+    testImplementation libs.junit
+    androidTestImplementation libs.extJunit
+    androidTestImplementation libs.espressoCore
+    androidTestImplementation platform(libs.composeBom)
+    androidTestImplementation libs.junitComposetwo
+    debugImplementation libs.composeUiTooling
+    debugImplementation libs.composeTestManifest
+    api libs.retrofitSqure
+    api libs.retrofitConverter
+    api libs.retrofitAdapter
+    api libs.loggingInterceptor
+    api libs.timber
+    api libs.viewmodelSavedState
+    api libs.lifecycleExt
+    annotationProcessor libs.lifecycleCompiler
+    api libs.constraintCompose
+    api(libs.coilCompose)
+    api libs.coilSvg
+    api libs.hiltAndroid
+    annotationProcessor libs.hiltCompiler
+    androidTestImplementation libs.hiltTesting
+    kapt libs.hiltCompiler
+    testImplementation libs.hiltTesting
+    testAnnotationProcessor libs.hiltCompiler
+    api libs.datastore
+    kaptTest libs.hiltKaptTesting
+    testAnnotationProcessor libs.hiltKaptTesting
+    kaptAndroidTest libs.hiltKaptTesting
+    androidTestAnnotationProcessor libs.hiltKaptTesting
+    androidTestImplementation libs.testRunner
+    api(project(":network"))
+}
+
+kapt {
+    correctErrorTypes true
+}

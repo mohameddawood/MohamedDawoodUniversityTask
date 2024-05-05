@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml:2:13-83
+INJECTED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml:2:13-83
+	package
+		INJECTED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml
+	xmlns:android
+		ADDED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml:2:23-81
+uses-sdk
+INJECTED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml
+INJECTED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/AndroidStudioProjects/university/network/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest931081495699148496.xml
